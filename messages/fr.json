@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "work": "Travaux",
+    "contact": "Contact"
+  },
+  "hero": {
+    "b1": "Conception créative, vidéo, photo & motion design.",
+    "b2": "De l'idée à l'image, j'aspire à raconter des histoires",
+    "b3": "joyeuses, empreintes de nouveaux récits.",
+    "scroll": "scroll"
+  },
+  "work": {
+    "selected": "Travaux sélectionnés",
+    "all": "Voir tous →",
+    "voir": "Voir →",
+    "title": "Travaux",
+    "tagline": "Communication engagée & nouveaux imaginaires.",
+    "filter_all": "Tous",
+    "filter_campaign": "Campagne 360°",
+    "filter_motion": "Motion Design",
+    "filter_video": "Vidéo documentaire"
+  },
+  "contact": {
+    "question": "Un projet en tête ?",
+    "cta": "Parlons-en",
+    "title": "About & Contact",
+    "bio_label": "Qui suis-je",
+    "bio": "Je suis Florian Dumont, créatif engagé basé à Bruxelles. Je crois au pouvoir des images pour raconter des histoires qui changent les représentations et construisent de nouveaux imaginaires.",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "phone_label": "Téléphone"
+  },
+  "footer": {
+    "copy": "© 2025 Florian Dumont"
+  },
+  "casestudy": {
+    "context": "Contexte",
+    "approach": "Approche",
+    "gallery": "Galerie",
+    "prev": "Projet précédent",
+    "next": "Projet suivant",
+    "back": "← Tous les travaux"
+  }
+}

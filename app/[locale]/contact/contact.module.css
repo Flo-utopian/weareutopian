@@ -1,0 +1,53 @@
+.page {
+  padding: 8rem 2.5rem 6rem;
+  min-height: 80vh;
+  max-width: 700px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 3rem;
+  animation: drop 0.8s ease both;
+}
+
+.block {
+  margin-bottom: 3.5rem;
+}
+
+.label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(30, 30, 30, 0.38);
+  margin-bottom: 0.6rem;
+}
+
+.bio {
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+  line-height: 1.8;
+  color: rgba(30, 30, 30, 0.65);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.linkBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkValue {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 700;
+  color: var(--dark);
+  transition: opacity 0.2s;
+}
+
+.linkValue:hover {
+  opacity: 0.55;
+}

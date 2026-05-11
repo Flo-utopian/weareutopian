@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "hero": {
+    "b1": "Creative direction, video, photo & motion design.",
+    "b2": "From idea to image, I aspire to tell joyful stories,",
+    "b3": "imbued with new narratives.",
+    "scroll": "scroll"
+  },
+  "work": {
+    "selected": "Selected work",
+    "all": "View all →",
+    "voir": "View →",
+    "title": "Work",
+    "tagline": "Engaged communication & new imaginaries.",
+    "filter_all": "All",
+    "filter_campaign": "360° Campaign",
+    "filter_motion": "Motion Design",
+    "filter_video": "Documentary"
+  },
+  "contact": {
+    "question": "Got a project in mind?",
+    "cta": "Let's talk",
+    "title": "About & Contact",
+    "bio_label": "Who I am",
+    "bio": "I'm Florian Dumont, an engaged creative based in Brussels. I believe in the power of images to tell stories that shift representations and build new imaginaries.",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "phone_label": "Phone"
+  },
+  "footer": {
+    "copy": "© 2025 Florian Dumont"
+  },
+  "casestudy": {
+    "context": "Context",
+    "approach": "Approach",
+    "gallery": "Gallery",
+    "prev": "Previous project",
+    "next": "Next project",
+    "back": "← All work"
+  }
+}

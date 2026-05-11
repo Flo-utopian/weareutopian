@@ -1,0 +1,52 @@
+:root {
+  --cream: #FFFCEE;
+  --dark: #1E1E1E;
+  --purple: #9B7BC8;
+  --orange: #F5AC48;
+  --pink: #E88AB9;
+  --yellow: #F5D742;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes scrollPulse {
+  0%, 100% {
+    height: 20px;
+    opacity: 0.2;
+  }
+  50% {
+    height: 38px;
+    opacity: 0.5;
+  }
+}

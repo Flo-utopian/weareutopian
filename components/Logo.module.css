@@ -1,0 +1,29 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  line-height: 1;
+  gap: 0;
+}
+
+.f {
+  font-size: var(--sz, 2rem);
+  color: var(--purple);
+}
+
+.l {
+  font-size: var(--sz, 2rem);
+  color: var(--orange);
+}
+
+.o {
+  font-size: calc(var(--sz, 2rem) * 0.92);
+  color: var(--cream);
+  background: var(--pink);
+  border-radius: 50%;
+  width: calc(var(--sz, 2rem) * 1.1);
+  height: calc(var(--sz, 2rem) * 1.1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

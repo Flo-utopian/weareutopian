@@ -1,0 +1,59 @@
+.hero {
+  min-height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 8rem 2.5rem 4rem;
+  overflow: hidden;
+}
+
+.coverImg {
+  object-fit: cover;
+  opacity: 0.65;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+.meta {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.projectTitle {
+  font-weight: 900;
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+.body {
+  padding: 5rem 2.5rem 6rem;
+  max-width: 860px;
+}
+
+.description {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.8;
+  color: rgba(30, 30, 30, 0.65);
+  margin-bottom: 4rem;
+}
+
+.backLink {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--purple);
+  transition: letter-spacing 0.3s;
+}
+
+.backLink:hover {
+  letter-spacing: 0.06em;
+}

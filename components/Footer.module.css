@@ -1,0 +1,37 @@
+.footer {
+  padding: 1.6rem 2.2rem;
+  border-top: 0.5px solid rgba(30, 30, 30, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copy {
+  font-size: 0.64rem;
+  color: rgba(30, 30, 30, 0.25);
+  letter-spacing: 0.05em;
+}
+
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social {
+  font-size: 0.64rem;
+  color: rgba(30, 30, 30, 0.34);
+  letter-spacing: 0.04em;
+  transition: opacity 0.2s;
+}
+
+.social:hover {
+  opacity: 0.65;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 1.25rem;
+  }
+}

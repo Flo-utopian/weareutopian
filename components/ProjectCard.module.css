@@ -1,0 +1,96 @@
+/* Card container — border-radius increases on hover */
+.card {
+  position: relative;
+  display: block;
+  border-radius: 22px;
+  overflow: hidden;
+  cursor: pointer;
+  height: 262px;
+
+  /* Smooth radius transition */
+  transition: border-radius 0.5s ease;
+}
+
+.card:hover {
+  border-radius: 56px;
+}
+
+/* Wide variant: first row, full grid width */
+.wide {
+  grid-column: 1 / -1;
+  height: 380px;
+}
+
+/* Background block — zooms on hover */
+.bg {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+  transition: transform 0.65s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover .bg {
+  transform: scale(1.06);
+}
+
+/* Cover image inside bg block */
+.img {
+  object-fit: cover;
+}
+
+/* Text content — positioned absolute, not affected by bg zoom */
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.cat {
+  display: block;
+  font-size: 0.54rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.title {
+  font-weight: 800;
+  font-size: clamp(1.05rem, 2.1vw, 1.65rem);
+  line-height: 1.05;
+  word-break: break-word;
+}
+
+.wide .title {
+  font-size: clamp(1.8rem, 4vw, 2.9rem);
+}
+
+/* Hover CTA */
+.cta {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.card:hover .cta {
+  opacity: 1;
+}
+
+/* Mobile: full width on small screens */
+@media (max-width: 640px) {
+  .card,
+  .wide {
+    grid-column: 1 / -1;
+    height: 240px;
+  }
+}

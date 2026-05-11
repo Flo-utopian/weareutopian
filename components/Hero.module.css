@@ -1,0 +1,137 @@
+.hero {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 2.5rem 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative */
+.star1 {
+  position: absolute;
+  top: 18%;
+  right: 7%;
+  opacity: 0.38;
+  pointer-events: none;
+}
+
+.dot1 {
+  position: absolute;
+  top: 26%;
+  right: 5.5%;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--yellow);
+  opacity: 0.46;
+  pointer-events: none;
+}
+
+.dot2 {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--orange);
+  opacity: 0.34;
+  pointer-events: none;
+}
+
+.star2 {
+  position: absolute;
+  bottom: 28%;
+  right: 3.5%;
+  opacity: 0.26;
+  pointer-events: none;
+}
+
+/* Giant FLO */
+.flo {
+  font-weight: 900;
+  font-size: clamp(4.8rem, 17vw, 14rem);
+  line-height: 0.82;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.75rem;
+  display: flex;
+  align-items: center;
+  animation: drop 0.9s ease both;
+}
+
+.f {
+  color: var(--purple);
+}
+
+.l {
+  color: var(--orange);
+}
+
+.o {
+  color: var(--cream);
+  background: var(--pink);
+  border-radius: 50%;
+  width: 0.88em;
+  height: 0.88em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sub name */
+.subname {
+  font-size: clamp(0.9rem, 2.3vw, 1.85rem);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: rgba(30, 30, 30, 0.36);
+  margin-bottom: 2rem;
+  animation: drop 0.9s 0.12s ease both;
+}
+
+/* Baseline */
+.baseline {
+  font-size: clamp(0.87rem, 1.3vw, 0.99rem);
+  font-weight: 400;
+  line-height: 1.82;
+  color: rgba(30, 30, 30, 0.54);
+  max-width: 500px;
+  animation: drop 0.9s 0.24s ease both;
+}
+
+.em {
+  color: var(--purple);
+  font-style: italic;
+}
+
+/* Scroll indicator */
+.scrollWrap {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.scrollLabel {
+  font-size: 0.54rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(30, 30, 30, 0.2);
+}
+
+.scrollLine {
+  width: 1px;
+  background: rgba(30, 30, 30, 0.2);
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 80px 1.25rem 4rem;
+  }
+}
