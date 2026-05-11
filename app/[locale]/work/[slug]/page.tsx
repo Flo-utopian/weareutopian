@@ -9,6 +9,9 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import styles from './casestudy.module.css'
 
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 export async function generateStaticParams() {
   const slugs: { slug: string }[] = await client.fetch(allSlugsQuery)
   return slugs.map(({ slug }) => ({ slug }))
